@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    /* background-color: burlywood; */
+    height: 80px;
+    border-bottom: 2px solid black;
+    width: 97%;
+    margin: auto;
+}
+#title{
+    /* background-color: cadetblue; */
+    width: 30%;
+    float: left;
+    height: 80px;
+}
+h2{
+    margin: 40px 0 0 20px;
+    font-size: 30px;
+}
+#buttons{
+    /* background-color:coral ; */
+    width: 20%;
+    float: right;
+    height: 80px;
+}
+li{
+    display: inline-block;
+    list-style-type: none;
+    margin: 45px 25px 0 40px;
+    
+}
+.buttons{
+    background-color:transparent;
+    padding: 3px 5px;
+    border: 3px solid black;
+    box-shadow: 2px 2px black;
+    cursor: pointer;
+}
+
+#container{
+    width:96%;
+    /* background-color: blanchedalmond; */
+    height: auto;
+    /* align-content: center; */
+    margin: auto;
+
+}
+
+#inputs{
+    /* background-color:burlywood; */
+    margin-top: 70px;
+    width: 30%;
+    
+}
+#inputs > ul > li{
+    display: flex;
+}
+#inputs > ul > li >label {
+    margin: 0 20px 0 0 ;
+    font-size: 20px;
+}
+#name {
+    margin-left: 20px;
+    border: 1px solid black;
+}
+#sku {
+    margin-left: 25px;
+    border: 1px solid black;
+}
+#name, #price, #sku, select{
+    border: 1px solid black;
+}
+
+#switch{
+    margin-top: 100px;
+}
+#switch > label{
+    margin-left: 30px;
+    font-size: 20px;
+    margin-right: 20px;
+}
+#switch > select{
+    height: 25px;
+    /* border: 1px solid black; */
+}
+
+#dvd-box, #book-box{
+    margin-top: 100px;
+    /* background-color:cadetblue; */
+    height: 150px;
+    width: 300px;
+    border: 1px solid black;
+}
+
+#dvd-box > li , #book-box > li {
+    margin-top: 60px;
+}
+#dvd-box > li > label{
+    margin-right: 20px ;
+    font-size: 20px;
+    /* padding-top: 45px ; */
+}
+#book-box > li > label{
+    margin-right: 10px;
+    font-size: 20px;
+}
+#dvd-box > li > input, #book-box > li > input, #furniture-box > li > input{
+    border: 1px solid black;
+}
+#furniture-box {
+    margin-top: 100px;
+    /* background-color:cadetblue; */
+    height: 200px;
+    width: 400px;
+    border: 1px solid black;
+}
+
+#furniture-box > li {
+    margin-top: 35px;
+    padding-right: 10px;
+    font-size: 20px;
+}
+#furniture-box > li > input{
+    margin-left: 10px ;
+    
+}
+
+.hide {
+    display: none;
+}
+footer{
+    margin-top: 50px;
+    border-top: 2px solid black;
+    width: 97%;
+    margin: auto;
+    margin-top: 50px;
+}
+h4{
+    font-size: 15px;
+    text-align: center;
+    margin-top: 25px;
+}
